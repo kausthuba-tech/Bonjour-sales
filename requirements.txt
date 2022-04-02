@@ -67,7 +67,9 @@ defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
 diff-match-patch @ file:///Users/ktietz/demo/mc3/conda-bld/diff-match-patch_1630511840874/work
 distlib==0.3.4
 distributed @ file:///C:/ci/distributed_1635968318313/work
+dj-database-url==0.5.0
 Django==4.0.3
+django-heroku==0.3.1
 docutils @ file:///C:/ci/docutils_1620828264669/work
 EB==0.1.5
 ebcli==4.0.18
@@ -183,6 +185,7 @@ poyo @ file:///tmp/build/80754af9/poyo_1617751526755/work
 prometheus-client @ file:///tmp/build/80754af9/prometheus_client_1623189609245/work
 prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
 psutil @ file:///C:/ci/psutil_1612298199233/work
+psycopg2==2.9.3
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 py @ file:///tmp/build/80754af9/py_1607971587848/work
 pycodestyle @ file:///tmp/build/80754af9/pycodestyle_1615748559966/work

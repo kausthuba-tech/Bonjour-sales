@@ -6,6 +6,7 @@ from django.views.decorators.csrf import csrf_protect
 from django.contrib.auth import authenticate,login,logout
 from .models import EMPLOYEE
 from .models import STORES
+from .models import ORDER
 # Create your views here.
 def index(request):
     employee_list = EMPLOYEE.objects.all()
@@ -18,9 +19,16 @@ def index(request):
         "stores_list" : stores_list
     } 
 
+    orders_list = ORDER.objects.all()
+    context2 = {
+        "orders_list" : orders_list
+    } 
+
     #return HttpResponse('<h1>Hello World</h1>')
     return render(request, "myapp/index.html",context)
     return render(request, "myapp/index.html",context1)
+    return render(request, "myapp/index.html",context2)
+
     
 
 

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import EMPLOYEE,STORES
+from .models import EMPLOYEE, ORDER,STORES
 class PostAdminSite(admin.AdminSite):
     site_header = "Bonjour Sales"
     site_title = "Bonjour Sales Admin Portal"
@@ -13,6 +13,7 @@ admin.site.index_title = "Welcome to Bonjour Sales"
 admin.site.register(EMPLOYEE)
 post_admin_site.register(STORES)
 post_admin_site.register(EMPLOYEE)
+post_admin_site.register(ORDER)
 
 
 
